@@ -1,0 +1,701 @@
+/* commmon css codes start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif; */
+    font-family: 'Ubuntu', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/* commmon css codes end */
+/* sidebar css codes start */
+#sidebar{
+    background-color: #e0eeff;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+#sidebar.active{
+    display: block;
+}
+#sidebar li:hover a{
+    color: #8484bf;
+}
+#sidebar li a{
+    display: block;
+    color: #0f2f44;
+    font-size: 18px;
+    padding: 15px 0;
+}
+nav ul li a i{
+    color: #0f2f44;
+}
+/* sidebar css codes end */
+/* header css codes end */
+.top_bar{
+    background-color: #0f2f44;
+}
+.top_bar p{
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 0;
+}
+.top_bar #p1{
+    width: 200px;
+}
+.top_bar #p2{
+    width: 285px;
+}
+.top_bar .container .row{
+    justify-content: space-between;
+}
+nav .container .row .logo{
+    width: 20%;
+}
+nav .container .row .menue{
+    width: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li a{
+    display: inline-block;
+    color: #222;
+    padding: 40px 19px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+nav ul .icon{
+    padding: 40px 19px;
+}
+nav .row{
+    align-items: center;
+}
+nav .container .row .menue ul li:hover a{
+    color: #ffc712;
+    background-color: #fff9e6;
+}
+nav .container .row .menue ul li>i{
+    border: 1px solid #999;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+}
+/* header css codes end */
+/* banner css codes end */
+#banner{
+    background: url(../images_of_bizzency/banner.jpg);
+    height: 600px;
+    background-size:112% 100%;
+    background-repeat: no-repeat;
+}
+#banner .container{
+    height: 100%;
+}
+#banner .container .row{
+    height: 100%;
+    align-items: center;
+}
+#banner .container .banner_content #your{
+    font-size: 50px;
+    font-weight: 100;
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+#banner .container .banner_content #success{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 80px;
+    color: #0f2f44;
+    text-transform: uppercase;
+}
+#banner .container .banner_content h3{
+    font-weight: 400;
+    font-size: 32px;
+    color: #8484bf;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+#banner .container .banner_content p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banner .container .banner_content a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 14px 19px;
+    background-color: #8484bf;
+    border-radius: 5px;
+    margin-right: 18px;
+}
+#banner .container .row .banner_content i{
+    color: #8484bf;
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    height: 49px;
+    width: 49px;
+    line-height: 49px;
+    cursor: pointer;
+}
+/* banner css codes end */
+/* about us css codes end */
+#about_us{
+    padding: 100px 0;
+}
+#about_us .container .row .about_content{
+    width: 50%;
+}
+#about_us .container .row .about_img{
+    width: 50%;
+}
+#about_us .container .row .about_content p{
+    font-size: 14px;
+    font-weight: 100;
+    color:#0f2f44;
+}
+#about_us .container .row .about_content .about_content_p2{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#about_us .container .row .about_content h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color:#0f2f44;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#about_us .container .row .about_content ul{
+    margin-left: 25px;
+}
+#about_us .container .row .about_content ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#0f2f44;
+    margin-bottom: 20px;
+}
+#about_us .container .row .about_content .row .about_content_a1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    padding: 15px 20px;
+    background-color: #ffc712;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+#about_us .container .row .about_content .row .about_content_a2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 20px;
+    display: inline-block;
+    text-transform: capitalize;
+    box-shadow: 1px 1px 10px 1px black;
+}
+/* about us css codes end */
+/* skill css codes end */
+#skill{
+    padding: 70px 0;
+}
+#skill .container .row .skill_image{
+    width: 50%;
+}
+#skill .container .row .skill_image img{
+    width: 100%;
+}
+#skill .container .row .skill_content{
+    width: 50%;
+}
+#skill .container .row .skill_content .skill_content_p1{
+    font-size: 14px;
+    font-weight: 100;
+    color: #0f2f44;
+    text-align: right;
+}
+#skill .container .row .skill_content h3{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #0f2f44;
+    text-align: right;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#skill .container .row .skill_content .skill_content_p2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0f2f44;
+    text-align: right;
+    margin-bottom: 25px;
+}
+#skill .container .row .skill_content>.row{
+    width: 504px;
+    margin-left: 90px;
+    margin-bottom: 19px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar{ 
+    display: block;
+    width: 82%;
+}
+#skill .container .row .skill_content .row .skill_content_logo{ 
+    width: 13%;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .s_c_p_pr{
+    height: 10px;
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .s_c_p_pr .init{
+    height: 10px;
+    width: 90%;
+    background-color: #294795;
+    margin-left: auto;
+    border-radius: 0 5px 5px 0;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .s_c_p_pr .init2{
+    height: 10px;
+    width: 85%;
+    background-color: #5d3b15;
+    margin-left: auto;
+    border-radius: 0 5px 5px 0;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .s_c_p_pr .init3{
+    height: 10px;
+    width: 75%;
+    background-color: #33491f;
+    margin-left: auto;
+    border-radius: 0 5px 5px 0;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .s_c_p_pr .init4{
+    height: 10px;
+    width: 80%;
+    background-color: #39295f;
+    margin-left: auto;
+    border-radius: 0 5px 5px 0;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .row{
+    justify-content: space-between;
+}
+#skill .container .row .skill_content .row .skill_content_progressbar .row p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0f2f44;
+    padding-bottom: 10px;
+}
+/* skill css codes end */
+/* our services css codes end */
+#service{
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+#service .container>p{
+    font-weight: 100;
+    font-size: 14px;
+    color: #0f2f44;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#service .container h4{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+#service .container .row .service_content{
+    width: 30%;
+    position: relative;
+}
+#service .container>.row{
+    justify-content: space-evenly;
+}
+#service .container .row .service_content .row .service_content_img{
+    width: 20%;
+}
+#service .container .row .service_content .row .service_content_img img{
+    width: 100%;
+}
+#service .container .row .service_content .row .service_content_p{
+    width: 80%;
+    padding: 0 15px;
+    background-color: #ededed;
+    border-radius: 0 2px 2px 0;;
+}
+#service .container .row .service_content .row .service_content_p h5{
+    font-weight: 500;
+    font-size: 20px;
+    color: #222;
+    padding-bottom: 15px;
+}
+#service .container .row .service_content .row .service_content_p p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    text-align: justify;
+}
+#service .container .row .service_content .overlay{
+    background-color: #0f2f44;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    visibility: hidden;
+    border-radius: 5px;
+    transition: 0.1s;
+}
+#service .container .row .service_content .overlay img{
+    padding: 15px 154px 15px 150px;
+}
+#service .container .row .service_content .overlay h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+#service .container .row .service_content:hover .overlay{
+    visibility: visible;
+}
+/* our services css codes end */
+/* portfolio css codes end */
+#portfolio{
+    padding: 100px 0;
+}
+#portfolio .container>p{
+    font-weight: 100;
+    font-size: 14px;
+    color: #0f2f44;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#portfolio .container h4{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+#portfolio .container .row .portfolio_image{
+    width: 30%;
+    height: 421px;
+    position: relative;
+}
+#portfolio .container .row .portfolio_image img{
+    width: 100%;
+    height: 100%;
+}
+#portfolio .container .row{
+    justify-content: space-evenly;
+}
+#portfolio .container .row .portfolio_image .overlay{
+    background-color: #fff;
+    width: 100%;
+    transform: scale(0);
+    position: absolute;
+    bottom: 0;
+    transition: 0.5s;
+}
+#portfolio .container .row .portfolio_image .overlay h3{
+    text-align: center;
+    padding: 30px 0;
+}
+#portfolio .container .row .portfolio_image:hover .overlay{
+    transform: scale(1);
+}
+#portfolio .container .row .portfolio_image:hover img{
+    box-shadow: 1px 1px 10px 1px black;
+}
+#portfolio .container .row a{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    background-color: #ffc712;
+    padding: 13px 18px;
+    text-transform: capitalize; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+/* portfolio css codes end */
+/* testimonial css codes end */
+#testimonial{
+    padding: 70px 0;
+    background-color: #f5f5f5;
+}
+#testimonial .container>p{
+    font-weight: 100;
+    font-size: 14px;
+    color: #0f2f44;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#testimonial .container>h4{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+#testimonial .row .testimonial_content{
+    width: 49%;
+    background-color: #e9e9e9;
+    border-radius: 0 0 5px 5px;
+}
+#testimonial .container .row{
+    justify-content: space-between;
+}
+#testimonial .row .testimonial_content .row .testimonial_content_img{
+    width: 30%;
+}
+#testimonial .row .testimonial_content .row .testimonial_content_passage{
+    width: 70%;
+    padding: 20px 10px;
+}
+#testimonial .row .testimonial_content .row .testimonial_content_passage p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0f2f44;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+#testimonial .row .testimonial_content .row .testimonial_content_passage h4{
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+#testimonial .row .testimonial_content .row .testimonial_content_passage h5{
+    font-weight: 100;
+    font-size: 16px;
+    color: #0f2f44;
+    text-transform: capitalize;
+}
+#testimonial .row .testimonial_content .row .testimonial_content_img img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 0 0 5px;
+}
+/* testimonial css codes end */
+/* blogs css codes end */
+#blogs{
+    padding: 70px 0;
+}
+#blogs .container>p{
+    font-weight: 100;
+    font-size: 14px;
+    color: #0f2f44;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#blogs .container>h4{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    color: #0f2f44;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+}
+#blogs .container>.row{
+    justify-content: space-between;
+}
+#blogs .container .row .blogs_content{
+    width: 28%;
+    background-color: #f5f5f5;
+}
+#blogs .container .row .blogs_content img{
+    height: 283px;
+    width: 330px;
+    padding: 19px;
+}
+#blogs .container .row .blogs_content .blogs_content_passage{
+    padding: 14px;
+}
+#blogs .container .row .blogs_content .blogs_content_passage p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #777;
+    padding-bottom: 20px;
+}
+#blogs .container .row .blogs_content .blogs_content_passage h3{
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#blogs .container .row .blogs_content .blogs_content_passage a,i{
+    font-weight: 500;
+    color: #777;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+#blogs .container .row .blogs_content:hover{
+    background-color: #0f2f44;
+}
+#blogs .container .row .blogs_content:hover h3,i{
+    color: #fff;
+}
+#blogs .container .row .blogs_content:hover p{
+    color: #fff;
+}
+#blogs .container .row .blogs_content:hover a{
+    color: #fff;
+}
+#blogs .container .row>a{
+    margin: auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f2f44;
+    background-color: #ffc712;
+    padding: 13px 18px;
+    text-transform: capitalize; 
+    margin-top: 50px;
+    border-radius: 5px;
+}
+/* blogs css codes end */
+/* footer css codes end */
+#footer{
+    padding: 70px 0;
+    background-color: #f5f5f5;
+}
+#footer .container .row{
+    justify-content: space-between;
+}
+#footer .container .row .footer_content1{
+    width: 28%;
+}
+#footer .container .row .footer_content2{
+    width: 18%;
+}
+#footer .container .row .footer_content3{
+    width: 13%;
+}
+#footer .container .row .footer_content4{
+    width: 33%;
+}
+#footer .container .row .footer_content1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    text-align: justify;
+    margin: 30px 0;
+}
+#footer .container .row .footer_content1 ul li{
+    display: inline-block;
+    padding-right: 10px;
+}
+#footer .container .row .footer_content1 ul li a i{
+    color:#0f2f44;
+    border: 2px solid #0f2f44;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+#footer .container .row .footer_content1 ul li:hover i{
+    color: #fff;
+    background-color: #0f2f44;
+}
+#footer .container .row .footer_content2 ul .row i{
+    width: 10%;
+    color: #777;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+#footer .container .row .footer_content2 ul .row p{
+    width: 90%;
+}
+#footer .container .row .footer_content3 h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 30px;
+}
+#footer .container .row .footer_content3 ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+}
+#footer .container .row .footer_content3 ul li{
+    margin-bottom: 30px;
+}
+#footer .container .row .footer_content3 ul li:hover a{
+    color: #0f2f44;
+    padding-left: 20px;
+}
+#footer .container .row .footer_content4 h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 40px;
+}
+#footer .container .row .footer_content4 .row{
+    justify-content: space-between;
+}
+#footer .container .row .footer_content4 .footer_content4_img{
+    padding: 10px 0;
+    width: 80px;
+    height: 80px;
+}
+#footer .container .row .footer_content4 .footer_content4_img img{
+    width: 100%;
+    height: 100%;
+}
+/* footer css codes end */
